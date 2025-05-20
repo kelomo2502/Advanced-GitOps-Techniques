@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/kelomo2502/blog-app-gitops-deployment.git'
+    repoURL: 'https://github.com/kelomo2502/Advanced-GitOps-Techniques.git'
     targetRevision: main
-    path: blog-app-gitops-deployment/kubernetes/helm/blog_app
+    path: Advanced-GitOps-Techniques/blog_app
     helm:
       valueFiles:
         - values.yaml
