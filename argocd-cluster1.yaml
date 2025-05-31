@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: 'https://github.com/kelomo2502/Advanced-GitOps-Techniques.git'
     targetRevision: main
-    path: Advanced-GitOps-Techniques/blog_app
+    path: blog_app
     helm:
       valueFiles:
         - values.yaml
